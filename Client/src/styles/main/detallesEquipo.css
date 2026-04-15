@@ -1,0 +1,133 @@
+.detallesEquipo {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.detallesEquipo::-webkit-scrollbar {
+  display: none;
+}
+
+.detallesEquipoTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.detallesEquipoTopLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.detallesEquipoTopInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detallesEquipoTopRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.infoCard {
+  border: 1px solid #33333380;
+  border-radius: 4px;
+  padding: 4px 12px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardTexts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.detallesEquipoBottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.infoEquipo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.infoEquipoItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.infoEquipoItemText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.informacionEquipo {
+  margin-top: 10px;
+}
+
+.infoPanel {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sistemaOperativo,
+.macAddress,
+.ipAddress,
+.usuarioEquipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btnsGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.btnComponentes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.infoComponentes {
+  margin-top: 25px;
+}

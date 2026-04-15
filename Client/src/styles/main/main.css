@@ -1,0 +1,39 @@
+.MainLayout {
+  height: 100vh;
+  width: 100vw;
+}
+
+.splitter-layout {
+  height: 100%;
+  width: 100%;
+}
+
+.MenuPanel {
+  flex-basis: calc(10% - 4px) !important;
+  padding: 10px;
+}
+
+.MainPanel {
+  flex-basis: calc(90% - 4px) !important;
+}
+
+.HeaderPanel {
+  flex-basis: calc(8% - 4px) !important;
+  padding: 10px;
+}
+
+.ContainerPanel {
+  flex-basis: calc(94% - 4px) !important;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1490px) {
+  .MenuPanel {
+    flex-basis: calc(14% - 4px) !important;
+    padding: 14px;
+  }
+
+  .MainPanel {
+    flex-basis: calc(86% - 4px) !important;
+  }
+}

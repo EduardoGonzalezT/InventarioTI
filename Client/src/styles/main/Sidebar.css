@@ -1,0 +1,36 @@
+.SidebarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 15px 0px;
+}
+
+.SidebarMenu {
+  height: 100% !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  border: none !important;
+}
+
+.SidebarLogo {
+  width: 40%;
+  height: auto;
+}
+
+.SidebarTitle {
+  font-size: clamp(0.8rem, 1vw, 1.8rem);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1490px) {
+  .SidebarMenu {
+    overflow-y: auto !important;
+    max-height: 85vh !important;
+    scrollbar-width: none !important;
+  }
+
+  .SidebarMenu::-webkit-scrollbar {
+    display: none !important;
+  }
+}

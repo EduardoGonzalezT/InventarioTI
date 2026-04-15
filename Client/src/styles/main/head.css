@@ -1,0 +1,50 @@
+.Head {
+  height: 100% !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  border: none !important;
+}
+
+.HeadEnd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.HeadEndUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 15px;
+  border: 1px solid #153650;
+  border-radius: 4px;
+  width: auto;
+}
+
+.HeadEndName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HeadEndButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.HeadEndButton:hover {
+  color: #ff002b;
+}
+
+.HeadEndButton:active {
+  color: #d90429;
+}

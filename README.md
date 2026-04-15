@@ -1,6 +1,4 @@
 # InventarioTI
-<<<<<<< HEAD
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/EduardoGonzalezT/InventarioTI)
 ![GitHub license](https://img.shields.io/github/license/EduardoGonzalezT/InventarioTI)
 ![Vue](https://img.shields.io/npm/v/vue?label=vue&logo=vue.js)
@@ -35,7 +33,6 @@ Permite registrar, organizar y mantener control sobre equipos tecnológicos dent
    ```bash
    git clone https://github.com/tuusuario/InventarioTI.git
    ```
-
 cd Client/
 npm install
 npm run dev
@@ -43,6 +40,3 @@ npm run dev
 cd Services/
 npm install
 npm start
-=======
-Repositorio diseñado para registrar, organizar y mantener control sobre equipos tecnológicos dentro de una organización. Permite administrar de manera centralizada dispositivos como computadoras, teléfonos IP y fijos, impresoras, grabadoras de voz, servidores, smartphones, pantallas y tabletas.
->>>>>>> f0ce57cd039e9395b7ea29592fdadb5a6c11c498

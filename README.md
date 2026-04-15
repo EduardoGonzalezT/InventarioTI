@@ -33,10 +33,10 @@ Permite registrar, organizar y mantener control sobre equipos tecnológicos dent
    ```bash
    git clone https://github.com/tuusuario/InventarioTI.git
    ```
-cd Client/
-npm install
-npm run dev
+2. cd Client/
+- **npm install
+- **npm run dev
 
-cd Services/
-npm install
-npm start
+3. cd Services/
+- **npm install
+- **npm start

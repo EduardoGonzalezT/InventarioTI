@@ -34,9 +34,9 @@ Permite registrar, organizar y mantener control sobre equipos tecnológicos dent
    git clone https://github.com/tuusuario/InventarioTI.git
    ```
 2. cd Client/
-- **npm install
-- **npm run dev
+- npm install
+- npm run dev
 
 3. cd Services/
-- **npm install
-- **npm start
+- npm install
+- npm start
